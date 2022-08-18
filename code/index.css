@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(0deg, 0%, 95%);
+  margin: 40px 0;
+}
+body p {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  line-height: 2;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 60%;
+  min-width: 300px;
+  margin: 10% 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 15px;
+}
+.card article {
+  margin: 30px 0;
+  text-align: justify;
+}
+.card button {
+  margin: 40px 0;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid hsl(0deg, 0%, 95%);
+  background-color: hsl(0deg, 0%, 95%);
+  border-radius: 25px;
+}
+
+.sedan {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.sedan button {
+  color: hsl(31deg, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.suvs button {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.luxury article {
+  padding: 0px;
+}
+.luxury button {
+  color: hsl(179deg, 100%, 13%);
+}
+
+@media screen and (max-width: 600px) {
+  body .container {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=index.css.map */
